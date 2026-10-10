@@ -1,0 +1,9 @@
+Patient ID,Age,Sex,Diagnosis,Grade,Disease Status,Disease Extent,Metastatic Sites,Measurable Disease,Missing Information Count
+P001,15,Male,osteosarcoma,high-grade,newly_diagnosed,localized,,True,0
+P002,16,Female,osteosarcoma,high-grade,newly_diagnosed,metastatic,lung,True,0
+P003,17,Male,osteosarcoma,high-grade,relapsed,metastatic,lung,True,0
+P004,14,Female,osteosarcoma,high-grade,refractory,metastatic,lung,True,6
+P005,12,Male,osteosarcoma,high-grade,refractory,metastatic,lung,True,0
+P006,13,Male,osteosarcoma,high-grade,metastatic,metastatic,lung,True,0
+P007,10,Female,osteosarcoma,high-grade,recurrent,metastatic,lung,True,0
+P008,19,Male,osteosarcoma,high-grade,relapsed,metastatic,lung,True,1

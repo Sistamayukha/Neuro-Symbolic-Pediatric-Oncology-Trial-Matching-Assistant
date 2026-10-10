@@ -1,0 +1,721 @@
+[
+  {
+    "patient_id": "P001",
+    "age_years": 15,
+    "sex": "Male",
+    "diagnosis": {
+      "cancer_type": "osteosarcoma",
+      "histologic_confirmation": true,
+      "grade": "high-grade",
+      "disease_status": "newly_diagnosed",
+      "disease_extent": "localized",
+      "metastatic_sites": [],
+      "measurable_disease": true
+    },
+    "anthropometrics": {
+      "weight_kg": 52,
+      "body_surface_area_m2": 1.55
+    },
+    "performance_status": {
+      "scale": null,
+      "score": null
+    },
+    "prior_treatment": {
+      "methotrexate": false,
+      "doxorubicin": false,
+      "cisplatin": false,
+      "ifosfamide": false,
+      "radiation": false,
+      "major_surgery": false,
+      "cellular_therapy": false,
+      "investigational_agent": false
+    },
+    "current_treatment": {
+      "map_chemotherapy": true,
+      "methotrexate": true,
+      "methotrexate_dose_g_m2": 12,
+      "doxorubicin": true,
+      "cisplatin": true,
+      "ifosfamide": false,
+      "chemotherapy_cycle": 1,
+      "second_cycle_started": false
+    },
+    "treatment_timing_days": {
+      "last_chemotherapy": null,
+      "last_growth_factor": null,
+      "last_radiation": null,
+      "last_major_surgery": null,
+      "last_cellular_therapy": null,
+      "last_investigational_agent": null
+    },
+    "laboratory_values": {
+      "anc_per_ul": 1850,
+      "platelets_per_ul": 168000,
+      "hemoglobin_g_dl": 10.2,
+      "bilirubin_uln_ratio": 0.8,
+      "alt_u_l": 52,
+      "alt_uln_ratio": null,
+      "ast_uln_ratio": null,
+      "alkaline_phosphatase_uln_ratio": null,
+      "gfr_ml_min_1_73m2": 96
+    },
+    "cardiac": {
+      "lvef_percent": 61,
+      "qtc_ms": null
+    },
+    "pulmonary": {
+      "oxygen_saturation_percent": null,
+      "oxygen_requirement": null,
+      "dyspnea_at_rest": null,
+      "exercise_intolerance": null
+    },
+    "other_clinical_facts": {
+      "active_infection": false,
+      "pregnant": false,
+      "breastfeeding": false,
+      "life_expectancy_months": null,
+      "blood_pressure_controlled": null,
+      "prior_tegavivint": null,
+      "prior_sulfatinib": null,
+      "prior_vegf_vegfr_therapies_count": null
+    },
+    "surgical_imaging": {
+      "pulmonary_metastatic_disease_suspected": null,
+      "largest_pulmonary_nodule_mm": null,
+      "pulmonary_surgery_recommended": null
+    },
+    "missing_information": []
+  },
+  {
+    "patient_id": "P002",
+    "age_years": 16,
+    "sex": "Female",
+    "diagnosis": {
+      "cancer_type": "osteosarcoma",
+      "histologic_confirmation": true,
+      "grade": "high-grade",
+      "disease_status": "newly_diagnosed",
+      "disease_extent": "metastatic",
+      "metastatic_sites": [
+        "lung"
+      ],
+      "measurable_disease": true
+    },
+    "anthropometrics": {
+      "weight_kg": 50,
+      "body_surface_area_m2": 1.48
+    },
+    "performance_status": {
+      "scale": null,
+      "score": null
+    },
+    "prior_treatment": {
+      "methotrexate": false,
+      "doxorubicin": false,
+      "cisplatin": false,
+      "ifosfamide": false,
+      "radiation": false,
+      "major_surgery": false,
+      "cellular_therapy": false,
+      "investigational_agent": false
+    },
+    "current_treatment": {
+      "map_chemotherapy": true,
+      "methotrexate": true,
+      "methotrexate_dose_g_m2": 12,
+      "doxorubicin": true,
+      "cisplatin": true,
+      "ifosfamide": false,
+      "chemotherapy_cycle": 1,
+      "second_cycle_started": false
+    },
+    "treatment_timing_days": {
+      "last_chemotherapy": null,
+      "last_growth_factor": null,
+      "last_radiation": null,
+      "last_major_surgery": null,
+      "last_cellular_therapy": null,
+      "last_investigational_agent": null
+    },
+    "laboratory_values": {
+      "anc_per_ul": 620,
+      "platelets_per_ul": 64000,
+      "hemoglobin_g_dl": 7.4,
+      "bilirubin_uln_ratio": 1.1,
+      "alt_u_l": 68,
+      "alt_uln_ratio": null,
+      "ast_uln_ratio": null,
+      "alkaline_phosphatase_uln_ratio": null,
+      "gfr_ml_min_1_73m2": 81
+    },
+    "cardiac": {
+      "lvef_percent": 43,
+      "qtc_ms": null
+    },
+    "pulmonary": {
+      "oxygen_saturation_percent": null,
+      "oxygen_requirement": null,
+      "dyspnea_at_rest": null,
+      "exercise_intolerance": null
+    },
+    "other_clinical_facts": {
+      "active_infection": false,
+      "pregnant": false,
+      "breastfeeding": false,
+      "life_expectancy_months": null,
+      "blood_pressure_controlled": null,
+      "prior_tegavivint": null,
+      "prior_sulfatinib": null,
+      "prior_vegf_vegfr_therapies_count": null
+    },
+    "surgical_imaging": {
+      "pulmonary_metastatic_disease_suspected": null,
+      "largest_pulmonary_nodule_mm": null,
+      "pulmonary_surgery_recommended": null
+    },
+    "missing_information": []
+  },
+  {
+    "patient_id": "P003",
+    "age_years": 17,
+    "sex": "Male",
+    "diagnosis": {
+      "cancer_type": "osteosarcoma",
+      "histologic_confirmation": true,
+      "grade": "high-grade",
+      "disease_status": "relapsed",
+      "disease_extent": "metastatic",
+      "metastatic_sites": [
+        "lung"
+      ],
+      "measurable_disease": true
+    },
+    "anthropometrics": {
+      "weight_kg": null,
+      "body_surface_area_m2": null
+    },
+    "performance_status": {
+      "scale": "Karnofsky",
+      "score": 80
+    },
+    "prior_treatment": {
+      "methotrexate": true,
+      "doxorubicin": true,
+      "cisplatin": true,
+      "ifosfamide": false,
+      "radiation": false,
+      "major_surgery": true,
+      "cellular_therapy": false,
+      "investigational_agent": false
+    },
+    "current_treatment": {
+      "map_chemotherapy": false,
+      "methotrexate": false,
+      "methotrexate_dose_g_m2": null,
+      "doxorubicin": false,
+      "cisplatin": false,
+      "ifosfamide": false,
+      "chemotherapy_cycle": null,
+      "second_cycle_started": null
+    },
+    "treatment_timing_days": {
+      "last_chemotherapy": 28,
+      "last_growth_factor": 21,
+      "last_radiation": null,
+      "last_major_surgery": 35,
+      "last_cellular_therapy": null,
+      "last_investigational_agent": null
+    },
+    "laboratory_values": {
+      "anc_per_ul": 1420,
+      "platelets_per_ul": 118000,
+      "hemoglobin_g_dl": null,
+      "bilirubin_uln_ratio": 0.9,
+      "alt_u_l": null,
+      "alt_uln_ratio": 1.4,
+      "ast_uln_ratio": null,
+      "alkaline_phosphatase_uln_ratio": null,
+      "gfr_ml_min_1_73m2": 88
+    },
+    "cardiac": {
+      "lvef_percent": null,
+      "qtc_ms": 442
+    },
+    "pulmonary": {
+      "oxygen_saturation_percent": 97,
+      "oxygen_requirement": false,
+      "dyspnea_at_rest": false,
+      "exercise_intolerance": false
+    },
+    "other_clinical_facts": {
+      "active_infection": false,
+      "pregnant": null,
+      "breastfeeding": null,
+      "life_expectancy_months": null,
+      "blood_pressure_controlled": null,
+      "prior_tegavivint": false,
+      "prior_sulfatinib": null,
+      "prior_vegf_vegfr_therapies_count": null
+    },
+    "surgical_imaging": {
+      "pulmonary_metastatic_disease_suspected": null,
+      "largest_pulmonary_nodule_mm": null,
+      "pulmonary_surgery_recommended": null
+    },
+    "missing_information": []
+  },
+  {
+    "patient_id": "P004",
+    "age_years": 14,
+    "sex": "Female",
+    "diagnosis": {
+      "cancer_type": "osteosarcoma",
+      "histologic_confirmation": true,
+      "grade": "high-grade",
+      "disease_status": "refractory",
+      "disease_extent": "metastatic",
+      "metastatic_sites": [
+        "lung"
+      ],
+      "measurable_disease": true
+    },
+    "anthropometrics": {
+      "weight_kg": null,
+      "body_surface_area_m2": null
+    },
+    "performance_status": {
+      "scale": "Lansky",
+      "score": 70
+    },
+    "prior_treatment": {
+      "methotrexate": true,
+      "doxorubicin": true,
+      "cisplatin": true,
+      "ifosfamide": null,
+      "radiation": false,
+      "major_surgery": true,
+      "cellular_therapy": false,
+      "investigational_agent": false
+    },
+    "current_treatment": {
+      "map_chemotherapy": false,
+      "methotrexate": false,
+      "methotrexate_dose_g_m2": null,
+      "doxorubicin": false,
+      "cisplatin": false,
+      "ifosfamide": false,
+      "chemotherapy_cycle": null,
+      "second_cycle_started": null
+    },
+    "treatment_timing_days": {
+      "last_chemotherapy": null,
+      "last_growth_factor": null,
+      "last_radiation": null,
+      "last_major_surgery": 28,
+      "last_cellular_therapy": null,
+      "last_investigational_agent": null
+    },
+    "laboratory_values": {
+      "anc_per_ul": 1100,
+      "platelets_per_ul": 92000,
+      "hemoglobin_g_dl": null,
+      "bilirubin_uln_ratio": 1.0,
+      "alt_u_l": null,
+      "alt_uln_ratio": null,
+      "ast_uln_ratio": null,
+      "alkaline_phosphatase_uln_ratio": null,
+      "gfr_ml_min_1_73m2": null
+    },
+    "cardiac": {
+      "lvef_percent": null,
+      "qtc_ms": null
+    },
+    "pulmonary": {
+      "oxygen_saturation_percent": 96,
+      "oxygen_requirement": false,
+      "dyspnea_at_rest": false,
+      "exercise_intolerance": false
+    },
+    "other_clinical_facts": {
+      "active_infection": false,
+      "pregnant": null,
+      "breastfeeding": null,
+      "life_expectancy_months": null,
+      "blood_pressure_controlled": null,
+      "prior_tegavivint": false,
+      "prior_sulfatinib": null,
+      "prior_vegf_vegfr_therapies_count": null
+    },
+    "surgical_imaging": {
+      "pulmonary_metastatic_disease_suspected": null,
+      "largest_pulmonary_nodule_mm": null,
+      "pulmonary_surgery_recommended": null
+    },
+    "missing_information": [
+      "ifosfamide treatment history",
+      "date of last chemotherapy",
+      "date of last growth factor treatment",
+      "ALT result",
+      "GFR or creatinine clearance",
+      "QTc measurement"
+    ]
+  },
+  {
+    "patient_id": "P005",
+    "age_years": 12,
+    "sex": "Male",
+    "diagnosis": {
+      "cancer_type": "osteosarcoma",
+      "histologic_confirmation": true,
+      "grade": "high-grade",
+      "disease_status": "refractory",
+      "disease_extent": "metastatic",
+      "metastatic_sites": [
+        "lung"
+      ],
+      "measurable_disease": true
+    },
+    "anthropometrics": {
+      "weight_kg": null,
+      "body_surface_area_m2": null
+    },
+    "performance_status": {
+      "scale": "Lansky",
+      "score": 80
+    },
+    "prior_treatment": {
+      "methotrexate": true,
+      "doxorubicin": true,
+      "cisplatin": true,
+      "ifosfamide": true,
+      "radiation": false,
+      "major_surgery": true,
+      "cellular_therapy": false,
+      "investigational_agent": false
+    },
+    "current_treatment": {
+      "map_chemotherapy": false,
+      "methotrexate": false,
+      "methotrexate_dose_g_m2": null,
+      "doxorubicin": false,
+      "cisplatin": false,
+      "ifosfamide": false,
+      "chemotherapy_cycle": null,
+      "second_cycle_started": null
+    },
+    "treatment_timing_days": {
+      "last_chemotherapy": null,
+      "last_growth_factor": null,
+      "last_radiation": null,
+      "last_major_surgery": null,
+      "last_cellular_therapy": null,
+      "last_investigational_agent": null
+    },
+    "laboratory_values": {
+      "anc_per_ul": 1700,
+      "platelets_per_ul": 126000,
+      "hemoglobin_g_dl": 9.6,
+      "bilirubin_uln_ratio": 0.7,
+      "alt_u_l": null,
+      "alt_uln_ratio": 1.8,
+      "ast_uln_ratio": 1.6,
+      "alkaline_phosphatase_uln_ratio": 2.2,
+      "gfr_ml_min_1_73m2": 92
+    },
+    "cardiac": {
+      "lvef_percent": 57,
+      "qtc_ms": null
+    },
+    "pulmonary": {
+      "oxygen_saturation_percent": null,
+      "oxygen_requirement": null,
+      "dyspnea_at_rest": null,
+      "exercise_intolerance": null
+    },
+    "other_clinical_facts": {
+      "active_infection": false,
+      "pregnant": false,
+      "breastfeeding": false,
+      "life_expectancy_months": 9,
+      "blood_pressure_controlled": true,
+      "prior_tegavivint": null,
+      "prior_sulfatinib": false,
+      "prior_vegf_vegfr_therapies_count": 1
+    },
+    "surgical_imaging": {
+      "pulmonary_metastatic_disease_suspected": null,
+      "largest_pulmonary_nodule_mm": null,
+      "pulmonary_surgery_recommended": null
+    },
+    "missing_information": []
+  },
+  {
+    "patient_id": "P006",
+    "age_years": 13,
+    "sex": "Male",
+    "diagnosis": {
+      "cancer_type": "osteosarcoma",
+      "histologic_confirmation": true,
+      "grade": "high-grade",
+      "disease_status": "metastatic",
+      "disease_extent": "metastatic",
+      "metastatic_sites": [
+        "lung"
+      ],
+      "measurable_disease": true
+    },
+    "anthropometrics": {
+      "weight_kg": 46,
+      "body_surface_area_m2": 1.42
+    },
+    "performance_status": {
+      "scale": null,
+      "score": null
+    },
+    "prior_treatment": {
+      "methotrexate": true,
+      "doxorubicin": true,
+      "cisplatin": true,
+      "ifosfamide": false,
+      "radiation": false,
+      "major_surgery": false,
+      "cellular_therapy": false,
+      "investigational_agent": false
+    },
+    "current_treatment": {
+      "map_chemotherapy": false,
+      "methotrexate": false,
+      "methotrexate_dose_g_m2": null,
+      "doxorubicin": false,
+      "cisplatin": false,
+      "ifosfamide": false,
+      "chemotherapy_cycle": null,
+      "second_cycle_started": null
+    },
+    "treatment_timing_days": {
+      "last_chemotherapy": null,
+      "last_growth_factor": null,
+      "last_radiation": null,
+      "last_major_surgery": null,
+      "last_cellular_therapy": null,
+      "last_investigational_agent": null
+    },
+    "laboratory_values": {
+      "anc_per_ul": null,
+      "platelets_per_ul": null,
+      "hemoglobin_g_dl": null,
+      "bilirubin_uln_ratio": 0.8,
+      "alt_u_l": null,
+      "alt_uln_ratio": 1.2,
+      "ast_uln_ratio": 1.0,
+      "alkaline_phosphatase_uln_ratio": 1.4,
+      "gfr_ml_min_1_73m2": 93
+    },
+    "cardiac": {
+      "lvef_percent": null,
+      "qtc_ms": null
+    },
+    "pulmonary": {
+      "oxygen_saturation_percent": null,
+      "oxygen_requirement": null,
+      "dyspnea_at_rest": null,
+      "exercise_intolerance": null
+    },
+    "other_clinical_facts": {
+      "active_infection": false,
+      "pregnant": false,
+      "breastfeeding": false,
+      "life_expectancy_months": null,
+      "blood_pressure_controlled": null,
+      "prior_tegavivint": null,
+      "prior_sulfatinib": null,
+      "prior_vegf_vegfr_therapies_count": null
+    },
+    "surgical_imaging": {
+      "pulmonary_metastatic_disease_suspected": true,
+      "largest_pulmonary_nodule_mm": 8,
+      "pulmonary_surgery_recommended": true
+    },
+    "missing_information": []
+  },
+  {
+    "patient_id": "P007",
+    "age_years": 10,
+    "sex": "Female",
+    "diagnosis": {
+      "cancer_type": "osteosarcoma",
+      "histologic_confirmation": true,
+      "grade": "high-grade",
+      "disease_status": "recurrent",
+      "disease_extent": "metastatic",
+      "metastatic_sites": [
+        "lung"
+      ],
+      "measurable_disease": true
+    },
+    "anthropometrics": {
+      "weight_kg": null,
+      "body_surface_area_m2": null
+    },
+    "performance_status": {
+      "scale": "Lansky",
+      "score": 80
+    },
+    "prior_treatment": {
+      "methotrexate": true,
+      "doxorubicin": true,
+      "cisplatin": true,
+      "ifosfamide": false,
+      "radiation": false,
+      "major_surgery": true,
+      "cellular_therapy": false,
+      "investigational_agent": false
+    },
+    "current_treatment": {
+      "map_chemotherapy": false,
+      "methotrexate": false,
+      "methotrexate_dose_g_m2": null,
+      "doxorubicin": false,
+      "cisplatin": false,
+      "ifosfamide": false,
+      "chemotherapy_cycle": null,
+      "second_cycle_started": null
+    },
+    "treatment_timing_days": {
+      "last_chemotherapy": 35,
+      "last_growth_factor": 21,
+      "last_radiation": null,
+      "last_major_surgery": 42,
+      "last_cellular_therapy": null,
+      "last_investigational_agent": null
+    },
+    "laboratory_values": {
+      "anc_per_ul": 1600,
+      "platelets_per_ul": 135000,
+      "hemoglobin_g_dl": 10.1,
+      "bilirubin_uln_ratio": 0.9,
+      "alt_u_l": null,
+      "alt_uln_ratio": 1.3,
+      "ast_uln_ratio": null,
+      "alkaline_phosphatase_uln_ratio": null,
+      "gfr_ml_min_1_73m2": 90
+    },
+    "cardiac": {
+      "lvef_percent": 58,
+      "qtc_ms": null
+    },
+    "pulmonary": {
+      "oxygen_saturation_percent": null,
+      "oxygen_requirement": null,
+      "dyspnea_at_rest": null,
+      "exercise_intolerance": null
+    },
+    "other_clinical_facts": {
+      "active_infection": false,
+      "pregnant": false,
+      "breastfeeding": false,
+      "life_expectancy_months": null,
+      "blood_pressure_controlled": null,
+      "prior_tegavivint": null,
+      "prior_sulfatinib": null,
+      "prior_vegf_vegfr_therapies_count": null
+    },
+    "surgical_imaging": {
+      "pulmonary_metastatic_disease_suspected": null,
+      "largest_pulmonary_nodule_mm": null,
+      "pulmonary_surgery_recommended": null
+    },
+    "missing_information": []
+  },
+  {
+    "patient_id": "P008",
+    "age_years": 19,
+    "sex": "Male",
+    "diagnosis": {
+      "cancer_type": "osteosarcoma",
+      "histologic_confirmation": true,
+      "grade": "high-grade",
+      "disease_status": "relapsed",
+      "disease_extent": "metastatic",
+      "metastatic_sites": [
+        "lung"
+      ],
+      "measurable_disease": true
+    },
+    "anthropometrics": {
+      "weight_kg": 61,
+      "body_surface_area_m2": 1.72
+    },
+    "performance_status": {
+      "scale": "Karnofsky",
+      "score": 70
+    },
+    "prior_treatment": {
+      "methotrexate": true,
+      "doxorubicin": true,
+      "cisplatin": true,
+      "ifosfamide": true,
+      "radiation": false,
+      "major_surgery": true,
+      "cellular_therapy": false,
+      "investigational_agent": false
+    },
+    "current_treatment": {
+      "map_chemotherapy": false,
+      "methotrexate": false,
+      "methotrexate_dose_g_m2": null,
+      "doxorubicin": false,
+      "cisplatin": false,
+      "ifosfamide": false,
+      "chemotherapy_cycle": null,
+      "second_cycle_started": null
+    },
+    "treatment_timing_days": {
+      "last_chemotherapy": 10,
+      "last_growth_factor": null,
+      "last_radiation": null,
+      "last_major_surgery": 8,
+      "last_cellular_therapy": null,
+      "last_investigational_agent": null
+    },
+    "laboratory_values": {
+      "anc_per_ul": 820,
+      "platelets_per_ul": 82000,
+      "hemoglobin_g_dl": 9.2,
+      "bilirubin_uln_ratio": 1.2,
+      "alt_u_l": null,
+      "alt_uln_ratio": 3.8,
+      "ast_uln_ratio": null,
+      "alkaline_phosphatase_uln_ratio": null,
+      "gfr_ml_min_1_73m2": 74
+    },
+    "cardiac": {
+      "lvef_percent": 52,
+      "qtc_ms": 476
+    },
+    "pulmonary": {
+      "oxygen_saturation_percent": 96,
+      "oxygen_requirement": false,
+      "dyspnea_at_rest": false,
+      "exercise_intolerance": false
+    },
+    "other_clinical_facts": {
+      "active_infection": false,
+      "pregnant": null,
+      "breastfeeding": null,
+      "life_expectancy_months": null,
+      "blood_pressure_controlled": null,
+      "prior_tegavivint": false,
+      "prior_sulfatinib": false,
+      "prior_vegf_vegfr_therapies_count": 1
+    },
+    "surgical_imaging": {
+      "pulmonary_metastatic_disease_suspected": true,
+      "largest_pulmonary_nodule_mm": 9,
+      "pulmonary_surgery_recommended": true
+    },
+    "missing_information": [
+      "date of last growth factor treatment"
+    ]
+  }
+]
