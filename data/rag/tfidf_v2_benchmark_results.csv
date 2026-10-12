@@ -1,0 +1,6 @@
+patient_id,expected_trial,hit_at_5,rank
+P001,NCT07560826,True,1.0
+P003,NCT07144254,True,3.0
+P005,NCT05590572,True,2.0
+P006,NCT06235125,True,5.0
+P007,NCT02013336,False,

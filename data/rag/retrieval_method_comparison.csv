@@ -1,0 +1,6 @@
+method,hit_at_5
+Baseline TF-IDF,0.4
+TF-IDF V2,0.8
+TF-IDF V3,0.6
+Sentence Embeddings,0.4
+V2 + V3 Fusion,0.6
