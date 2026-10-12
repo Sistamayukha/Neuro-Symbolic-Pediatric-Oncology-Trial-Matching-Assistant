@@ -1,0 +1,190 @@
+patient_id,nct_id,rule_id,missing_field,question
+P001,NCT07144254,NCT07144254_R05,performance_status.score,Additional information is needed for: performance_status.score
+P001,NCT07144254,NCT07144254_R06,treatment_timing_days.last_chemotherapy,When was the patient's most recent chemotherapy?
+P001,NCT07144254,NCT07144254_R07,treatment_timing_days.last_major_surgery,Additional information is needed for: treatment_timing_days.last_major_surgery
+P001,NCT07144254,NCT07144254_R12,laboratory_values.alt_uln_ratio,What is the patient's most recent ALT value relative to ULN?
+P001,NCT07144254,NCT07144254_R13,pulmonary.dyspnea_at_rest,Additional information is needed for: pulmonary.dyspnea_at_rest
+P001,NCT07144254,NCT07144254_R14,pulmonary.exercise_intolerance,Additional information is needed for: pulmonary.exercise_intolerance
+P001,NCT07144254,NCT07144254_R15,pulmonary.oxygen_requirement,Additional information is needed for: pulmonary.oxygen_requirement
+P001,NCT07144254,NCT07144254_R16,pulmonary.oxygen_saturation_percent,Additional information is needed for: pulmonary.oxygen_saturation_percent
+P001,NCT07144254,NCT07144254_R17,cardiac.qtc_ms,Is a recent QTc measurement available?
+P001,NCT07144254,NCT07144254_R19,other_clinical_facts.prior_tegavivint,Additional information is needed for: other_clinical_facts.prior_tegavivint
+P001,NCT05590572,NCT05590572_R08,other_clinical_facts.life_expectancy_months,Additional information is needed for: other_clinical_facts.life_expectancy_months
+P001,NCT05590572,NCT05590572_R13,laboratory_values.alt_uln_ratio,What is the patient's most recent ALT value relative to ULN?
+P001,NCT05590572,NCT05590572_R14,laboratory_values.ast_uln_ratio,What is the patient's most recent AST value relative to ULN?
+P001,NCT05590572,NCT05590572_R15,laboratory_values.alkaline_phosphatase_uln_ratio,What is the patient's most recent alkaline phosphatase value relative to ULN?
+P001,NCT05590572,NCT05590572_R18,other_clinical_facts.blood_pressure_controlled,Additional information is needed for: other_clinical_facts.blood_pressure_controlled
+P001,NCT05590572,NCT05590572_R20,other_clinical_facts.prior_sulfatinib,Additional information is needed for: other_clinical_facts.prior_sulfatinib
+P001,NCT05590572,NCT05590572_R21,other_clinical_facts.prior_vegf_vegfr_therapies_count,Additional information is needed for: other_clinical_facts.prior_vegf_vegfr_therapies_count
+P001,NCT06235125,NCT06235125_R06,surgical_imaging.pulmonary_metastatic_disease_suspected,Additional information is needed for: surgical_imaging.pulmonary_metastatic_disease_suspected
+P001,NCT06235125,NCT06235125_R07,surgical_imaging.pulmonary_surgery_recommended,Additional information is needed for: surgical_imaging.pulmonary_surgery_recommended
+P001,NCT06235125,NCT06235125_R08,surgical_imaging.largest_pulmonary_nodule_mm,Additional information is needed for: surgical_imaging.largest_pulmonary_nodule_mm
+P001,NCT06235125,NCT06235125_R10,laboratory_values.alt_uln_ratio,What is the patient's most recent ALT value relative to ULN?
+P001,NCT06235125,NCT06235125_R11,laboratory_values.ast_uln_ratio,What is the patient's most recent AST value relative to ULN?
+P001,NCT06235125,NCT06235125_R12,laboratory_values.alkaline_phosphatase_uln_ratio,What is the patient's most recent alkaline phosphatase value relative to ULN?
+P002,NCT07144254,NCT07144254_R05,performance_status.score,Additional information is needed for: performance_status.score
+P002,NCT07144254,NCT07144254_R06,treatment_timing_days.last_chemotherapy,When was the patient's most recent chemotherapy?
+P002,NCT07144254,NCT07144254_R07,treatment_timing_days.last_major_surgery,Additional information is needed for: treatment_timing_days.last_major_surgery
+P002,NCT07144254,NCT07144254_R12,laboratory_values.alt_uln_ratio,What is the patient's most recent ALT value relative to ULN?
+P002,NCT07144254,NCT07144254_R13,pulmonary.dyspnea_at_rest,Additional information is needed for: pulmonary.dyspnea_at_rest
+P002,NCT07144254,NCT07144254_R14,pulmonary.exercise_intolerance,Additional information is needed for: pulmonary.exercise_intolerance
+P002,NCT07144254,NCT07144254_R15,pulmonary.oxygen_requirement,Additional information is needed for: pulmonary.oxygen_requirement
+P002,NCT07144254,NCT07144254_R16,pulmonary.oxygen_saturation_percent,Additional information is needed for: pulmonary.oxygen_saturation_percent
+P002,NCT07144254,NCT07144254_R17,cardiac.qtc_ms,Is a recent QTc measurement available?
+P002,NCT07144254,NCT07144254_R19,other_clinical_facts.prior_tegavivint,Additional information is needed for: other_clinical_facts.prior_tegavivint
+P002,NCT05590572,NCT05590572_R08,other_clinical_facts.life_expectancy_months,Additional information is needed for: other_clinical_facts.life_expectancy_months
+P002,NCT05590572,NCT05590572_R13,laboratory_values.alt_uln_ratio,What is the patient's most recent ALT value relative to ULN?
+P002,NCT05590572,NCT05590572_R14,laboratory_values.ast_uln_ratio,What is the patient's most recent AST value relative to ULN?
+P002,NCT05590572,NCT05590572_R15,laboratory_values.alkaline_phosphatase_uln_ratio,What is the patient's most recent alkaline phosphatase value relative to ULN?
+P002,NCT05590572,NCT05590572_R18,other_clinical_facts.blood_pressure_controlled,Additional information is needed for: other_clinical_facts.blood_pressure_controlled
+P002,NCT05590572,NCT05590572_R20,other_clinical_facts.prior_sulfatinib,Additional information is needed for: other_clinical_facts.prior_sulfatinib
+P002,NCT05590572,NCT05590572_R21,other_clinical_facts.prior_vegf_vegfr_therapies_count,Additional information is needed for: other_clinical_facts.prior_vegf_vegfr_therapies_count
+P002,NCT06235125,NCT06235125_R06,surgical_imaging.pulmonary_metastatic_disease_suspected,Additional information is needed for: surgical_imaging.pulmonary_metastatic_disease_suspected
+P002,NCT06235125,NCT06235125_R07,surgical_imaging.pulmonary_surgery_recommended,Additional information is needed for: surgical_imaging.pulmonary_surgery_recommended
+P002,NCT06235125,NCT06235125_R08,surgical_imaging.largest_pulmonary_nodule_mm,Additional information is needed for: surgical_imaging.largest_pulmonary_nodule_mm
+P002,NCT06235125,NCT06235125_R10,laboratory_values.alt_uln_ratio,What is the patient's most recent ALT value relative to ULN?
+P002,NCT06235125,NCT06235125_R11,laboratory_values.ast_uln_ratio,What is the patient's most recent AST value relative to ULN?
+P002,NCT06235125,NCT06235125_R12,laboratory_values.alkaline_phosphatase_uln_ratio,What is the patient's most recent alkaline phosphatase value relative to ULN?
+P003,NCT07560826,NCT07560826_R05,anthropometrics.body_surface_area_m2,Additional information is needed for: anthropometrics.body_surface_area_m2
+P003,NCT07560826,NCT07560826_R08,current_treatment.methotrexate_dose_g_m2,Additional information is needed for: current_treatment.methotrexate_dose_g_m2
+P003,NCT07560826,NCT07560826_R10,laboratory_values.alt_u_l,Additional information is needed for: laboratory_values.alt_u_l
+P003,NCT07560826,NCT07560826_R14,laboratory_values.hemoglobin_g_dl,Additional information is needed for: laboratory_values.hemoglobin_g_dl
+P003,NCT07560826,NCT07560826_R15,cardiac.lvef_percent,What is the patient's most recent LVEF?
+P003,NCT07560826,NCT07560826_R16,current_treatment.second_cycle_started,Additional information is needed for: current_treatment.second_cycle_started
+P003,NCT07560826,NCT07560826_R17,other_clinical_facts.pregnant,Additional information is needed for: other_clinical_facts.pregnant
+P003,NCT07560826,NCT07560826_R18,other_clinical_facts.breastfeeding,Additional information is needed for: other_clinical_facts.breastfeeding
+P003,NCT05590572,NCT05590572_R08,other_clinical_facts.life_expectancy_months,Additional information is needed for: other_clinical_facts.life_expectancy_months
+P003,NCT05590572,NCT05590572_R10,laboratory_values.hemoglobin_g_dl,Additional information is needed for: laboratory_values.hemoglobin_g_dl
+P003,NCT05590572,NCT05590572_R14,laboratory_values.ast_uln_ratio,What is the patient's most recent AST value relative to ULN?
+P003,NCT05590572,NCT05590572_R15,laboratory_values.alkaline_phosphatase_uln_ratio,What is the patient's most recent alkaline phosphatase value relative to ULN?
+P003,NCT05590572,NCT05590572_R17,cardiac.lvef_percent,What is the patient's most recent LVEF?
+P003,NCT05590572,NCT05590572_R18,other_clinical_facts.blood_pressure_controlled,Additional information is needed for: other_clinical_facts.blood_pressure_controlled
+P003,NCT05590572,NCT05590572_R20,other_clinical_facts.prior_sulfatinib,Additional information is needed for: other_clinical_facts.prior_sulfatinib
+P003,NCT05590572,NCT05590572_R21,other_clinical_facts.prior_vegf_vegfr_therapies_count,Additional information is needed for: other_clinical_facts.prior_vegf_vegfr_therapies_count
+P003,NCT05590572,NCT05590572_R22,other_clinical_facts.pregnant,Additional information is needed for: other_clinical_facts.pregnant
+P003,NCT05590572,NCT05590572_R23,other_clinical_facts.breastfeeding,Additional information is needed for: other_clinical_facts.breastfeeding
+P003,NCT06235125,NCT06235125_R03,anthropometrics.weight_kg,Additional information is needed for: anthropometrics.weight_kg
+P003,NCT06235125,NCT06235125_R06,surgical_imaging.pulmonary_metastatic_disease_suspected,Additional information is needed for: surgical_imaging.pulmonary_metastatic_disease_suspected
+P003,NCT06235125,NCT06235125_R07,surgical_imaging.pulmonary_surgery_recommended,Additional information is needed for: surgical_imaging.pulmonary_surgery_recommended
+P003,NCT06235125,NCT06235125_R08,surgical_imaging.largest_pulmonary_nodule_mm,Additional information is needed for: surgical_imaging.largest_pulmonary_nodule_mm
+P003,NCT06235125,NCT06235125_R11,laboratory_values.ast_uln_ratio,What is the patient's most recent AST value relative to ULN?
+P003,NCT06235125,NCT06235125_R12,laboratory_values.alkaline_phosphatase_uln_ratio,What is the patient's most recent alkaline phosphatase value relative to ULN?
+P003,NCT06235125,NCT06235125_R14,other_clinical_facts.pregnant,Additional information is needed for: other_clinical_facts.pregnant
+P003,NCT02013336,NCT02013336_R09,other_clinical_facts.pregnant,Additional information is needed for: other_clinical_facts.pregnant
+P003,NCT02013336,NCT02013336_R10,other_clinical_facts.breastfeeding,Additional information is needed for: other_clinical_facts.breastfeeding
+P004,NCT07560826,NCT07560826_R05,anthropometrics.body_surface_area_m2,Additional information is needed for: anthropometrics.body_surface_area_m2
+P004,NCT07560826,NCT07560826_R08,current_treatment.methotrexate_dose_g_m2,Additional information is needed for: current_treatment.methotrexate_dose_g_m2
+P004,NCT07560826,NCT07560826_R10,laboratory_values.alt_u_l,Additional information is needed for: laboratory_values.alt_u_l
+P004,NCT07560826,NCT07560826_R11,laboratory_values.gfr_ml_min_1_73m2,What is the patient's current GFR or creatinine clearance?
+P004,NCT07560826,NCT07560826_R14,laboratory_values.hemoglobin_g_dl,Additional information is needed for: laboratory_values.hemoglobin_g_dl
+P004,NCT07560826,NCT07560826_R15,cardiac.lvef_percent,What is the patient's most recent LVEF?
+P004,NCT07560826,NCT07560826_R16,current_treatment.second_cycle_started,Additional information is needed for: current_treatment.second_cycle_started
+P004,NCT07560826,NCT07560826_R17,other_clinical_facts.pregnant,Additional information is needed for: other_clinical_facts.pregnant
+P004,NCT07560826,NCT07560826_R18,other_clinical_facts.breastfeeding,Additional information is needed for: other_clinical_facts.breastfeeding
+P004,NCT07144254,NCT07144254_R06,treatment_timing_days.last_chemotherapy,When was the patient's most recent chemotherapy?
+P004,NCT07144254,NCT07144254_R10,laboratory_values.gfr_ml_min_1_73m2,What is the patient's current GFR or creatinine clearance?
+P004,NCT07144254,NCT07144254_R12,laboratory_values.alt_uln_ratio,What is the patient's most recent ALT value relative to ULN?
+P004,NCT07144254,NCT07144254_R17,cardiac.qtc_ms,Is a recent QTc measurement available?
+P004,NCT05590572,NCT05590572_R08,other_clinical_facts.life_expectancy_months,Additional information is needed for: other_clinical_facts.life_expectancy_months
+P004,NCT05590572,NCT05590572_R10,laboratory_values.hemoglobin_g_dl,Additional information is needed for: laboratory_values.hemoglobin_g_dl
+P004,NCT05590572,NCT05590572_R13,laboratory_values.alt_uln_ratio,What is the patient's most recent ALT value relative to ULN?
+P004,NCT05590572,NCT05590572_R14,laboratory_values.ast_uln_ratio,What is the patient's most recent AST value relative to ULN?
+P004,NCT05590572,NCT05590572_R15,laboratory_values.alkaline_phosphatase_uln_ratio,What is the patient's most recent alkaline phosphatase value relative to ULN?
+P004,NCT05590572,NCT05590572_R16,laboratory_values.gfr_ml_min_1_73m2,What is the patient's current GFR or creatinine clearance?
+P004,NCT05590572,NCT05590572_R17,cardiac.lvef_percent,What is the patient's most recent LVEF?
+P004,NCT05590572,NCT05590572_R18,other_clinical_facts.blood_pressure_controlled,Additional information is needed for: other_clinical_facts.blood_pressure_controlled
+P004,NCT05590572,NCT05590572_R20,other_clinical_facts.prior_sulfatinib,Additional information is needed for: other_clinical_facts.prior_sulfatinib
+P004,NCT05590572,NCT05590572_R21,other_clinical_facts.prior_vegf_vegfr_therapies_count,Additional information is needed for: other_clinical_facts.prior_vegf_vegfr_therapies_count
+P004,NCT05590572,NCT05590572_R22,other_clinical_facts.pregnant,Additional information is needed for: other_clinical_facts.pregnant
+P004,NCT05590572,NCT05590572_R23,other_clinical_facts.breastfeeding,Additional information is needed for: other_clinical_facts.breastfeeding
+P004,NCT06235125,NCT06235125_R03,anthropometrics.weight_kg,Additional information is needed for: anthropometrics.weight_kg
+P004,NCT06235125,NCT06235125_R06,surgical_imaging.pulmonary_metastatic_disease_suspected,Additional information is needed for: surgical_imaging.pulmonary_metastatic_disease_suspected
+P004,NCT06235125,NCT06235125_R07,surgical_imaging.pulmonary_surgery_recommended,Additional information is needed for: surgical_imaging.pulmonary_surgery_recommended
+P004,NCT06235125,NCT06235125_R08,surgical_imaging.largest_pulmonary_nodule_mm,Additional information is needed for: surgical_imaging.largest_pulmonary_nodule_mm
+P004,NCT06235125,NCT06235125_R09,laboratory_values.gfr_ml_min_1_73m2,What is the patient's current GFR or creatinine clearance?
+P004,NCT06235125,NCT06235125_R10,laboratory_values.alt_uln_ratio,What is the patient's most recent ALT value relative to ULN?
+P004,NCT06235125,NCT06235125_R11,laboratory_values.ast_uln_ratio,What is the patient's most recent AST value relative to ULN?
+P004,NCT06235125,NCT06235125_R12,laboratory_values.alkaline_phosphatase_uln_ratio,What is the patient's most recent alkaline phosphatase value relative to ULN?
+P004,NCT06235125,NCT06235125_R14,other_clinical_facts.pregnant,Additional information is needed for: other_clinical_facts.pregnant
+P004,NCT02013336,NCT02013336_R09,other_clinical_facts.pregnant,Additional information is needed for: other_clinical_facts.pregnant
+P004,NCT02013336,NCT02013336_R10,other_clinical_facts.breastfeeding,Additional information is needed for: other_clinical_facts.breastfeeding
+P005,NCT07560826,NCT07560826_R05,anthropometrics.body_surface_area_m2,Additional information is needed for: anthropometrics.body_surface_area_m2
+P005,NCT07560826,NCT07560826_R08,current_treatment.methotrexate_dose_g_m2,Additional information is needed for: current_treatment.methotrexate_dose_g_m2
+P005,NCT07560826,NCT07560826_R10,laboratory_values.alt_u_l,Additional information is needed for: laboratory_values.alt_u_l
+P005,NCT07560826,NCT07560826_R16,current_treatment.second_cycle_started,Additional information is needed for: current_treatment.second_cycle_started
+P005,NCT07144254,NCT07144254_R06,treatment_timing_days.last_chemotherapy,When was the patient's most recent chemotherapy?
+P005,NCT07144254,NCT07144254_R07,treatment_timing_days.last_major_surgery,Additional information is needed for: treatment_timing_days.last_major_surgery
+P005,NCT07144254,NCT07144254_R13,pulmonary.dyspnea_at_rest,Additional information is needed for: pulmonary.dyspnea_at_rest
+P005,NCT07144254,NCT07144254_R14,pulmonary.exercise_intolerance,Additional information is needed for: pulmonary.exercise_intolerance
+P005,NCT07144254,NCT07144254_R15,pulmonary.oxygen_requirement,Additional information is needed for: pulmonary.oxygen_requirement
+P005,NCT07144254,NCT07144254_R16,pulmonary.oxygen_saturation_percent,Additional information is needed for: pulmonary.oxygen_saturation_percent
+P005,NCT07144254,NCT07144254_R17,cardiac.qtc_ms,Is a recent QTc measurement available?
+P005,NCT07144254,NCT07144254_R19,other_clinical_facts.prior_tegavivint,Additional information is needed for: other_clinical_facts.prior_tegavivint
+P005,NCT06235125,NCT06235125_R03,anthropometrics.weight_kg,Additional information is needed for: anthropometrics.weight_kg
+P005,NCT06235125,NCT06235125_R06,surgical_imaging.pulmonary_metastatic_disease_suspected,Additional information is needed for: surgical_imaging.pulmonary_metastatic_disease_suspected
+P005,NCT06235125,NCT06235125_R07,surgical_imaging.pulmonary_surgery_recommended,Additional information is needed for: surgical_imaging.pulmonary_surgery_recommended
+P005,NCT06235125,NCT06235125_R08,surgical_imaging.largest_pulmonary_nodule_mm,Additional information is needed for: surgical_imaging.largest_pulmonary_nodule_mm
+P006,NCT07560826,NCT07560826_R08,current_treatment.methotrexate_dose_g_m2,Additional information is needed for: current_treatment.methotrexate_dose_g_m2
+P006,NCT07560826,NCT07560826_R10,laboratory_values.alt_u_l,Additional information is needed for: laboratory_values.alt_u_l
+P006,NCT07560826,NCT07560826_R12,laboratory_values.anc_per_ul,What is the patient's most recent ANC?
+P006,NCT07560826,NCT07560826_R13,laboratory_values.platelets_per_ul,What is the patient's most recent platelet count?
+P006,NCT07560826,NCT07560826_R14,laboratory_values.hemoglobin_g_dl,Additional information is needed for: laboratory_values.hemoglobin_g_dl
+P006,NCT07560826,NCT07560826_R15,cardiac.lvef_percent,What is the patient's most recent LVEF?
+P006,NCT07560826,NCT07560826_R16,current_treatment.second_cycle_started,Additional information is needed for: current_treatment.second_cycle_started
+P006,NCT07144254,NCT07144254_R05,performance_status.score,Additional information is needed for: performance_status.score
+P006,NCT07144254,NCT07144254_R06,treatment_timing_days.last_chemotherapy,When was the patient's most recent chemotherapy?
+P006,NCT07144254,NCT07144254_R07,treatment_timing_days.last_major_surgery,Additional information is needed for: treatment_timing_days.last_major_surgery
+P006,NCT07144254,NCT07144254_R08,laboratory_values.anc_per_ul,What is the patient's most recent ANC?
+P006,NCT07144254,NCT07144254_R09,laboratory_values.platelets_per_ul,What is the patient's most recent platelet count?
+P006,NCT07144254,NCT07144254_R13,pulmonary.dyspnea_at_rest,Additional information is needed for: pulmonary.dyspnea_at_rest
+P006,NCT07144254,NCT07144254_R14,pulmonary.exercise_intolerance,Additional information is needed for: pulmonary.exercise_intolerance
+P006,NCT07144254,NCT07144254_R15,pulmonary.oxygen_requirement,Additional information is needed for: pulmonary.oxygen_requirement
+P006,NCT07144254,NCT07144254_R16,pulmonary.oxygen_saturation_percent,Additional information is needed for: pulmonary.oxygen_saturation_percent
+P006,NCT07144254,NCT07144254_R17,cardiac.qtc_ms,Is a recent QTc measurement available?
+P006,NCT07144254,NCT07144254_R19,other_clinical_facts.prior_tegavivint,Additional information is needed for: other_clinical_facts.prior_tegavivint
+P006,NCT05590572,NCT05590572_R08,other_clinical_facts.life_expectancy_months,Additional information is needed for: other_clinical_facts.life_expectancy_months
+P006,NCT05590572,NCT05590572_R09,laboratory_values.anc_per_ul,What is the patient's most recent ANC?
+P006,NCT05590572,NCT05590572_R10,laboratory_values.hemoglobin_g_dl,Additional information is needed for: laboratory_values.hemoglobin_g_dl
+P006,NCT05590572,NCT05590572_R11,laboratory_values.platelets_per_ul,What is the patient's most recent platelet count?
+P006,NCT05590572,NCT05590572_R17,cardiac.lvef_percent,What is the patient's most recent LVEF?
+P006,NCT05590572,NCT05590572_R18,other_clinical_facts.blood_pressure_controlled,Additional information is needed for: other_clinical_facts.blood_pressure_controlled
+P006,NCT05590572,NCT05590572_R20,other_clinical_facts.prior_sulfatinib,Additional information is needed for: other_clinical_facts.prior_sulfatinib
+P006,NCT05590572,NCT05590572_R21,other_clinical_facts.prior_vegf_vegfr_therapies_count,Additional information is needed for: other_clinical_facts.prior_vegf_vegfr_therapies_count
+P007,NCT07560826,NCT07560826_R05,anthropometrics.body_surface_area_m2,Additional information is needed for: anthropometrics.body_surface_area_m2
+P007,NCT07560826,NCT07560826_R08,current_treatment.methotrexate_dose_g_m2,Additional information is needed for: current_treatment.methotrexate_dose_g_m2
+P007,NCT07560826,NCT07560826_R10,laboratory_values.alt_u_l,Additional information is needed for: laboratory_values.alt_u_l
+P007,NCT07560826,NCT07560826_R16,current_treatment.second_cycle_started,Additional information is needed for: current_treatment.second_cycle_started
+P007,NCT07144254,NCT07144254_R13,pulmonary.dyspnea_at_rest,Additional information is needed for: pulmonary.dyspnea_at_rest
+P007,NCT07144254,NCT07144254_R14,pulmonary.exercise_intolerance,Additional information is needed for: pulmonary.exercise_intolerance
+P007,NCT07144254,NCT07144254_R15,pulmonary.oxygen_requirement,Additional information is needed for: pulmonary.oxygen_requirement
+P007,NCT07144254,NCT07144254_R16,pulmonary.oxygen_saturation_percent,Additional information is needed for: pulmonary.oxygen_saturation_percent
+P007,NCT07144254,NCT07144254_R17,cardiac.qtc_ms,Is a recent QTc measurement available?
+P007,NCT07144254,NCT07144254_R19,other_clinical_facts.prior_tegavivint,Additional information is needed for: other_clinical_facts.prior_tegavivint
+P007,NCT05590572,NCT05590572_R08,other_clinical_facts.life_expectancy_months,Additional information is needed for: other_clinical_facts.life_expectancy_months
+P007,NCT05590572,NCT05590572_R14,laboratory_values.ast_uln_ratio,What is the patient's most recent AST value relative to ULN?
+P007,NCT05590572,NCT05590572_R15,laboratory_values.alkaline_phosphatase_uln_ratio,What is the patient's most recent alkaline phosphatase value relative to ULN?
+P007,NCT05590572,NCT05590572_R18,other_clinical_facts.blood_pressure_controlled,Additional information is needed for: other_clinical_facts.blood_pressure_controlled
+P007,NCT05590572,NCT05590572_R20,other_clinical_facts.prior_sulfatinib,Additional information is needed for: other_clinical_facts.prior_sulfatinib
+P007,NCT05590572,NCT05590572_R21,other_clinical_facts.prior_vegf_vegfr_therapies_count,Additional information is needed for: other_clinical_facts.prior_vegf_vegfr_therapies_count
+P007,NCT06235125,NCT06235125_R03,anthropometrics.weight_kg,Additional information is needed for: anthropometrics.weight_kg
+P007,NCT06235125,NCT06235125_R06,surgical_imaging.pulmonary_metastatic_disease_suspected,Additional information is needed for: surgical_imaging.pulmonary_metastatic_disease_suspected
+P007,NCT06235125,NCT06235125_R07,surgical_imaging.pulmonary_surgery_recommended,Additional information is needed for: surgical_imaging.pulmonary_surgery_recommended
+P007,NCT06235125,NCT06235125_R08,surgical_imaging.largest_pulmonary_nodule_mm,Additional information is needed for: surgical_imaging.largest_pulmonary_nodule_mm
+P007,NCT06235125,NCT06235125_R11,laboratory_values.ast_uln_ratio,What is the patient's most recent AST value relative to ULN?
+P007,NCT06235125,NCT06235125_R12,laboratory_values.alkaline_phosphatase_uln_ratio,What is the patient's most recent alkaline phosphatase value relative to ULN?
+P008,NCT07560826,NCT07560826_R08,current_treatment.methotrexate_dose_g_m2,Additional information is needed for: current_treatment.methotrexate_dose_g_m2
+P008,NCT07560826,NCT07560826_R10,laboratory_values.alt_u_l,Additional information is needed for: laboratory_values.alt_u_l
+P008,NCT07560826,NCT07560826_R16,current_treatment.second_cycle_started,Additional information is needed for: current_treatment.second_cycle_started
+P008,NCT07560826,NCT07560826_R17,other_clinical_facts.pregnant,Additional information is needed for: other_clinical_facts.pregnant
+P008,NCT07560826,NCT07560826_R18,other_clinical_facts.breastfeeding,Additional information is needed for: other_clinical_facts.breastfeeding
+P008,NCT05590572,NCT05590572_R08,other_clinical_facts.life_expectancy_months,Additional information is needed for: other_clinical_facts.life_expectancy_months
+P008,NCT05590572,NCT05590572_R14,laboratory_values.ast_uln_ratio,What is the patient's most recent AST value relative to ULN?
+P008,NCT05590572,NCT05590572_R15,laboratory_values.alkaline_phosphatase_uln_ratio,What is the patient's most recent alkaline phosphatase value relative to ULN?
+P008,NCT05590572,NCT05590572_R18,other_clinical_facts.blood_pressure_controlled,Additional information is needed for: other_clinical_facts.blood_pressure_controlled
+P008,NCT05590572,NCT05590572_R22,other_clinical_facts.pregnant,Additional information is needed for: other_clinical_facts.pregnant
+P008,NCT05590572,NCT05590572_R23,other_clinical_facts.breastfeeding,Additional information is needed for: other_clinical_facts.breastfeeding
+P008,NCT06235125,NCT06235125_R11,laboratory_values.ast_uln_ratio,What is the patient's most recent AST value relative to ULN?
+P008,NCT06235125,NCT06235125_R12,laboratory_values.alkaline_phosphatase_uln_ratio,What is the patient's most recent alkaline phosphatase value relative to ULN?
+P008,NCT06235125,NCT06235125_R14,other_clinical_facts.pregnant,Additional information is needed for: other_clinical_facts.pregnant
+P008,NCT02013336,NCT02013336_R09,other_clinical_facts.pregnant,Additional information is needed for: other_clinical_facts.pregnant
+P008,NCT02013336,NCT02013336_R10,other_clinical_facts.breastfeeding,Additional information is needed for: other_clinical_facts.breastfeeding
