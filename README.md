@@ -1,44 +1,87 @@
-# Neuro-Symbolic-Pediatric-Oncology-Trial-Matching-Assistant
-## Explanation Planner
+# Neuro-Symbolic Pediatric Oncology Trial Matching Assistant
 
-The explanation planner processes the symbolic eligibility evaluation results and prepares structured information for generating patient-specific clinical trial explanations.
+UMBC neuro-symbolic AI course project, Group 9 (Demo track).
+Team: Mayukha Sista, Prashanth Reddy P, Sai Satwika Reddy K.
 
-**Implementation:** `src/explanation_planner.py`
+An interactive prototype that matches synthetic pediatric osteosarcoma patients to clinical trials. Trials are retrieved with TF-IDF, each eligibility criterion is checked by explicit symbolic rules (MET / NOT_MET / UNKNOWN), and a structured explanation plan lists what passed, what failed and what information is missing.
 
-**Input:** `data/rules/patient_trial_rule_results.json`
+> Educational screening prototype using synthetic data only. Not a clinical eligibility determination or medical advice.
 
-### Features Implemented
+## Architecture
 
-- Loads the symbolic reasoning results for 8 synthetic patients evaluated against 5 clinical trials (40 patient–trial combinations).
-- Retrieves the eligibility evaluation for a selected patient and trial.
-- Groups individual eligibility criteria into MET, NOT_MET, and UNKNOWN.
-- Builds a structured explanation plan containing the overall assessment, supporting evidence, failed criteria, and missing information.
-- Generates follow-up questions for UNKNOWN criteria to identify missing patient information.
+```
+Synthetic patient profile (structured facts)
+  -> Trial retrieval (TF-IDF V2, Top 5 from a 30-trial corpus)
+  -> Symbolic rule engine (MET / NOT_MET / UNKNOWN per criterion)
+  -> Proof trace (rule, patient value, required value)
+  -> Explanation planner (grouped results + missing-information questions)
+  -> LLM verbalizer -> verification -> Streamlit UI      (planned)
+```
 
-### Testing
+Patient facts are stored in a structured schema; the MVP does not extract facts from free-text narratives.
 
-The explanation planner has been tested with two patient–trial combinations:
+## Repository structure
 
-| Patient | Trial ID | Result | Test Description |
-|---|---|---|---|
-| P002 | NCT07560826 | NOT_MET | Identified four failed criteria involving ANC, platelets, hemoglobin, and LVEF |
-| P004 | NCT07144254 | UNKNOWN | Generated four questions for missing chemotherapy timing, GFR, ALT, and QTc information |
+```
+data/
+  trials/             ClinicalTrials.gov export (144 rows), 30-trial corpus,
+                      10-trial reviewed shortlist, 5 trials encoded as rules
+  synthetic_patients/ 8 synthetic patient profiles (JSON + summary CSV)
+  rules/              rule results for 8 patients x 5 trials = 40 evaluations,
+                      eligibility matrix, missing-information questions
+  rag/                retrieval benchmark results
+notebooks/
+  01_create_synthetic_patients.ipynb   build the synthetic patient set
+  02_encode_symbolic_rules.ipynb       encode rules, run 40 evaluations
+  03_build_rag_retrieval.ipynb         TF-IDF / embedding retrieval experiments
+src/
+  explanation_planner.py               explanation plan + follow-up questions
+outputs/
+```
 
-### How to Run
+## Current status
 
-Run the following command from the project root directory:
+| Component | Status |
+|---|---|
+| Trial collection, 30/10/5 trial datasets | Complete |
+| 8 synthetic patient profiles | Complete |
+| 5 symbolic rule sets, 40 patient-trial evaluations | Complete |
+| Missing-information question generation | Complete |
+| Retrieval experiments, TF-IDF V2 selected | Complete |
+| Initial explanation planner | Complete |
+| Retrieval + symbolic integration | In progress |
+| LLM verbalizer, explanation verifier | Remaining |
+| Streamlit frontend, end-to-end demo | Remaining |
+
+Retrieval benchmark (5 patient-trial pairs, Hit@5):
+
+| Method | Hit@5 |
+|---|---|
+| Baseline TF-IDF | 0.40 |
+| TF-IDF V2 (used in MVP) | 0.80 |
+| TF-IDF V3 | 0.60 |
+| Sentence embeddings (all-MiniLM-L6-v2) | 0.40 |
+| V2 + V3 fusion | 0.60 |
+
+## How to run
+
+```bash
+pip install -r requirements.txt
+```
+
+Notebooks: open them from the `notebooks/` folder (they read data via `Path("..")`) and run in order 01 -> 02 -> 03.
+
+Explanation planner, from the repository root:
 
 ```bash
 python3 src/explanation_planner.py
 ```
 
-The script currently runs a predefined patient–trial test case. You can change the patient ID and trial ID in the script's main block to test another combination.
+It runs a fixed test case (P004 vs NCT07144254, overall UNKNOWN) and prints the missing-information questions. Change the patient and trial IDs in the `__main__` block to try another pair, e.g. P002 vs NCT07560826 (NOT_MET on ANC, platelets, hemoglobin and LVEF).
 
-### Next Steps
+## Remaining work
 
-- Integrate a pretrained LLM to generate natural-language explanations from the structured explanation plans.
-- Implement verification to ensure explanations are consistent with symbolic reasoning results.
-- Integrate the explanation planner and LLM generator into the Streamlit interface.
-- Support updating missing patient information and rerunning the symbolic evaluation.
-
-**Current Status:** Initial explanation planner implemented and tested. LLM integration and frontend development are pending.
+- Connect TF-IDF V2 retrieval to the symbolic rule engine.
+- Add the LLM verbalizer (pretrained model, zero-shot prompting, constrained to the explanation plan).
+- Add verification that generated text matches the symbolic results and keeps UNKNOWN as unknown.
+- Build the Streamlit interface with fact editing and rerun of the reasoning.
