@@ -1,0 +1,41 @@
+patient_id,rank,nct_id,title,retrieval_score,symbolic_available,overall_status,met_count,not_met_count,unknown_count,missing_questions_count
+P001,1,NCT07560826,The CATSINDO Trial - Clinical and Translational Study in Newly Diagnosed Osteosarcoma,0.17107346419310507,True,MET,18.0,0.0,0.0,0
+P001,2,NCT07321912,Eflornithine (DFMO) for Ewing Sarcoma and Osteosarcoma,0.12365759998049916,False,,,,,0
+P001,3,NCT03643133,Mifamurtide Combined With Post-operative Chemotherapy for Newly Diagnosed High Risk Osteosarcoma Patients,0.10575279305879517,False,,,,,0
+P001,4,NCT06650514,A Phase 2 Pilot Study to Evaluate the Safety and the Anti-Tumour Activity of the Myc Inhibitor OMO-103 Administered Intravenously in Patients With Advanced High-Grade Osteosarcoma,0.08922516608413243,False,,,,,0
+P001,5,NCT05590572,A Study of Sulfatinib on Relapsed or Refractory Drug Resistant Osteosarcoma,0.08368818721205247,True,NOT_MET,15.0,1.0,7.0,7
+P002,1,NCT07560826,The CATSINDO Trial - Clinical and Translational Study in Newly Diagnosed Osteosarcoma,0.16046064083165124,True,NOT_MET,14.0,4.0,0.0,0
+P002,2,NCT07321912,Eflornithine (DFMO) for Ewing Sarcoma and Osteosarcoma,0.1513975717497024,False,,,,,0
+P002,3,NCT07725380,"Domatinostat With Sirolimus for Relapsed, Refractory Sarcoma and Osteosarcoma",0.10258101485366715,False,,,,,0
+P002,4,NCT03643133,Mifamurtide Combined With Post-operative Chemotherapy for Newly Diagnosed High Risk Osteosarcoma Patients,0.09789169777945347,False,,,,,0
+P002,5,NCT07477457,"A Study of Gefitinib, Trametinib, Disulfiram, and Sunitinib in Addition to Standard Chemotherapy in People With Osteosarcoma",0.09535238903790502,False,,,,,0
+P003,1,NCT07321912,Eflornithine (DFMO) for Ewing Sarcoma and Osteosarcoma,0.11626385475220948,False,,,,,0
+P003,2,NCT03643133,Mifamurtide Combined With Post-operative Chemotherapy for Newly Diagnosed High Risk Osteosarcoma Patients,0.11441576199991979,False,,,,,0
+P003,3,NCT07144254,Tegavivint With Gemcitabine in Patients With Relapsed or Refractory Osteosarcoma,0.11408875044485163,True,MET,19.0,0.0,0.0,0
+P003,4,NCT07477457,"A Study of Gefitinib, Trametinib, Disulfiram, and Sunitinib in Addition to Standard Chemotherapy in People With Osteosarcoma",0.10999459609521658,False,,,,,0
+P003,5,NCT04616560,"Trastuzumab Deruxtecan (DS-8201a) for the Treatment of Recurrent or Refractory Osteosarcoma, Wilms Tumor, and Desmoplastic Small Round Cell Tumor",0.10386535316977223,False,,,,,0
+P004,1,NCT03643133,Mifamurtide Combined With Post-operative Chemotherapy for Newly Diagnosed High Risk Osteosarcoma Patients,0.10781236827710433,False,,,,,0
+P004,2,NCT07725380,"Domatinostat With Sirolimus for Relapsed, Refractory Sarcoma and Osteosarcoma",0.10545405833870117,False,,,,,0
+P004,3,NCT07144254,Tegavivint With Gemcitabine in Patients With Relapsed or Refractory Osteosarcoma,0.10340795788668289,True,UNKNOWN,15.0,0.0,4.0,4
+P004,4,NCT05019703,"Atezolizumab and Cabozantinib for the Treatment of Adolescents and Young Adults With Recurrent or Metastatic Osteosarcoma, TACOS Study",0.102576127227637,False,,,,,0
+P004,5,NCT07428993,Evaluating Efficacy of B7-H3-CAR T Cells Administered at the End of Upfront Map Chemotherapy in Patients With Newly Diagnosed High-Risk Osteosarcoma,0.09701503758270053,False,,,,,0
+P005,1,NCT03643133,Mifamurtide Combined With Post-operative Chemotherapy for Newly Diagnosed High Risk Osteosarcoma Patients,0.12711393082172143,False,,,,,0
+P005,2,NCT05590572,A Study of Sulfatinib on Relapsed or Refractory Drug Resistant Osteosarcoma,0.11829488471236665,True,MET,23.0,0.0,0.0,0
+P005,3,NCT07725380,"Domatinostat With Sirolimus for Relapsed, Refractory Sarcoma and Osteosarcoma",0.11492821885088361,False,,,,,0
+P005,4,NCT07321912,Eflornithine (DFMO) for Ewing Sarcoma and Osteosarcoma,0.10507688048127532,False,,,,,0
+P005,5,NCT05019703,"Atezolizumab and Cabozantinib for the Treatment of Adolescents and Young Adults With Recurrent or Metastatic Osteosarcoma, TACOS Study",0.1005455665954425,False,,,,,0
+P006,1,NCT05235165,Thoracotomy Versus Thoracoscopic Management of Pulmonary Metastases in Patients With Osteosarcoma,0.1569069838090158,False,,,,,0
+P006,2,NCT07321912,Eflornithine (DFMO) for Ewing Sarcoma and Osteosarcoma,0.14674688049859735,False,,,,,0
+P006,3,NCT06114225,Pulmonary Resectable Osteosarcoma Treated by Metastasectomy and Pre-operative Immunotherapy and Stereotactic Body Radiotherapy (PROMIS): a Prospective Clinical Trial,0.10863664895903882,False,,,,,0
+P006,4,NCT03628209,"Nivolumab or Nivolumab and Azacitidine in Patients With Recurrent, Resectable Osteosarcoma",0.1053042455795728,False,,,,,0
+P006,5,NCT06235125,Safety and Feasibility of Intraoperative Visualization With Cytalux in Children,0.10152544147706988,True,MET,14.0,0.0,0.0,0
+P007,1,NCT03643133,Mifamurtide Combined With Post-operative Chemotherapy for Newly Diagnosed High Risk Osteosarcoma Patients,0.13099589644335782,False,,,,,0
+P007,2,NCT03900793,Losartan + Sunitinib in Treatment of Osteosarcoma,0.1253193357763786,False,,,,,0
+P007,3,NCT05019703,"Atezolizumab and Cabozantinib for the Treatment of Adolescents and Young Adults With Recurrent or Metastatic Osteosarcoma, TACOS Study",0.12056012441824591,False,,,,,0
+P007,4,NCT07321912,Eflornithine (DFMO) for Ewing Sarcoma and Osteosarcoma,0.11574872651916088,False,,,,,0
+P007,5,NCT07725380,"Domatinostat With Sirolimus for Relapsed, Refractory Sarcoma and Osteosarcoma",0.10464664102632601,False,,,,,0
+P008,1,NCT05235165,Thoracotomy Versus Thoracoscopic Management of Pulmonary Metastases in Patients With Osteosarcoma,0.13376099586956836,False,,,,,0
+P008,2,NCT07321912,Eflornithine (DFMO) for Ewing Sarcoma and Osteosarcoma,0.12910957028378062,False,,,,,0
+P008,3,NCT03643133,Mifamurtide Combined With Post-operative Chemotherapy for Newly Diagnosed High Risk Osteosarcoma Patients,0.12678173654292194,False,,,,,0
+P008,4,NCT07144254,Tegavivint With Gemcitabine in Patients With Relapsed or Refractory Osteosarcoma,0.12156793425147894,True,NOT_MET,16.0,3.0,0.0,0
+P008,5,NCT07477457,"A Study of Gefitinib, Trametinib, Disulfiram, and Sunitinib in Addition to Standard Chemotherapy in People With Osteosarcoma",0.10376150318913299,False,,,,,0

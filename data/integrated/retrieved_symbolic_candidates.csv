@@ -1,0 +1,9 @@
+patient_id,rank,nct_id,title,retrieval_score,symbolic_available,overall_status,met_count,not_met_count,unknown_count,missing_questions_count
+P001,1,NCT07560826,The CATSINDO Trial - Clinical and Translational Study in Newly Diagnosed Osteosarcoma,0.17107346419310507,True,MET,18.0,0.0,0.0,0
+P001,5,NCT05590572,A Study of Sulfatinib on Relapsed or Refractory Drug Resistant Osteosarcoma,0.08368818721205247,True,NOT_MET,15.0,1.0,7.0,7
+P002,1,NCT07560826,The CATSINDO Trial - Clinical and Translational Study in Newly Diagnosed Osteosarcoma,0.16046064083165124,True,NOT_MET,14.0,4.0,0.0,0
+P003,3,NCT07144254,Tegavivint With Gemcitabine in Patients With Relapsed or Refractory Osteosarcoma,0.11408875044485163,True,MET,19.0,0.0,0.0,0
+P004,3,NCT07144254,Tegavivint With Gemcitabine in Patients With Relapsed or Refractory Osteosarcoma,0.10340795788668289,True,UNKNOWN,15.0,0.0,4.0,4
+P005,2,NCT05590572,A Study of Sulfatinib on Relapsed or Refractory Drug Resistant Osteosarcoma,0.11829488471236665,True,MET,23.0,0.0,0.0,0
+P006,5,NCT06235125,Safety and Feasibility of Intraoperative Visualization With Cytalux in Children,0.10152544147706988,True,MET,14.0,0.0,0.0,0
+P008,4,NCT07144254,Tegavivint With Gemcitabine in Patients With Relapsed or Refractory Osteosarcoma,0.12156793425147894,True,NOT_MET,16.0,3.0,0.0,0
