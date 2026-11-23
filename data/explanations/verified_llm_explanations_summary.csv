@@ -1,0 +1,4 @@
+patient_id,nct_id,expected_status,declared_status,verification_passed
+P001,NCT07560826,MET,MET,True
+P002,NCT07560826,NOT_MET,NOT_MET,True
+P004,NCT07144254,UNKNOWN,UNKNOWN,True
