@@ -3,7 +3,7 @@
     "patient_id": "P001",
     "nct_id": "NCT07560826",
     "expected_status": "MET",
-    "llm_explanation": "Overall symbolic status: **MET**. The patient meets all evaluated encoded criteria for this prototype, including the age, diagnosis and disease-grade requirements; permitted localized disease status; body-surface-area and treatment requirements; listed laboratory and cardiac thresholds; and the encoded enrollment-timing and pregnancy/breastfeeding conditions. No criteria are marked NOT_MET or UNKNOWN, and no missing-information questions are listed.\n\nThis result applies only to the encoded criteria in this prototype. This is not a final clinical eligibility determination.",
+    "llm_explanation": "For patient P001 and trial NCT07560826, the overall symbolic status is **MET**. The encoded criteria are satisfied, including age 15 (\u226422), high-grade osteosarcoma, localized disease, and the specified MAP treatment. The recorded laboratory and cardiac values meet the encoded thresholds, and the recorded enrollment and exclusion criteria are met. No criteria are listed as NOT_MET or UNKNOWN, and no information is listed as missing.\n\nThis result applies only to the encoded criteria in this prototype. This is not a final clinical eligibility determination.",
     "verification_passed": true,
     "declared_status": "MET",
     "verification_checks": {
@@ -18,7 +18,7 @@
     "patient_id": "P002",
     "nct_id": "NCT07560826",
     "expected_status": "NOT_MET",
-    "llm_explanation": "**Overall symbolic status: NOT_MET.** The patient does not satisfy all evaluated eligibility criteria in this prototype. Four criteria are marked NOT_MET: absolute neutrophil count is 620/uL (required \u22651,000/uL), platelet count is 64,000/uL (required \u2265100,000/uL), hemoglobin is 7.4 g/dL (required \u22658.0 g/dL), and left ventricular ejection fraction is 43% (required \u226550%).\n\nNo criteria are listed as unknown, and no missing-information questions are listed. This result applies only to the encoded criteria in this prototype.\n\nThis is not a final clinical eligibility determination.",
+    "llm_explanation": "For patient P002 and trial NCT07560826, the overall symbolic status is **NOT_MET**: the patient does not satisfy all evaluated eligibility criteria.\n\nThe decisive criteria marked NOT_MET are:\n- Absolute neutrophil count: 620/uL (required: at least 1000/uL)\n- Platelet count: 64,000/uL (required: at least 100,000/uL)\n- Hemoglobin: 7.4 g/dL (required: at least 8.0 g/dL)\n- Left ventricular ejection fraction: 43% (required: at least 50%)\n\nNo missing information was reported. This result applies only to the encoded criteria in this prototype.\n\nThis is not a final clinical eligibility determination.",
     "verification_passed": true,
     "declared_status": "NOT_MET",
     "verification_checks": {
@@ -33,7 +33,7 @@
     "patient_id": "P004",
     "nct_id": "NCT07144254",
     "expected_status": "UNKNOWN",
-    "llm_explanation": "For Patient P004 and Trial NCT07144254, the overall symbolic status is **UNKNOWN**. The encoded criteria marked MET include histologic verification, refractory disease, measurable or evaluable disease, performance score, and several treatment, laboratory, and respiratory criteria. The front-line therapy criterion is marked MET: methotrexate, doxorubicin, and cisplatin are recorded as included; ifosfamide information is missing.\n\nFour criteria remain UNKNOWN because the required information is missing: days since last myelosuppressive chemotherapy, GFR or creatinine clearance, ALT, and QTc. No criteria are marked NOT_MET. This result applies only to the encoded criteria in this prototype.\n\nThis is not a final clinical eligibility determination.",
+    "llm_explanation": "For patient P004 and trial NCT07144254, the overall symbolic status is **UNKNOWN**. The encoded criteria marked as MET include histologic verification, refractory disease, at least three specified front-line therapies, and the other listed disease, performance, laboratory, respiratory, and treatment-history criteria. No criteria are marked NOT_MET.\n\nThe result remains UNKNOWN because information is missing for time since myelosuppressive chemotherapy, creatinine clearance/GFR, ALT, and QTc. This result applies only to the encoded criteria in this prototype.\n\nThis is not a final clinical eligibility determination.",
     "verification_passed": true,
     "declared_status": "UNKNOWN",
     "verification_checks": {
