@@ -42,9 +42,24 @@ st.markdown(
     <style>
       :root { --navy:#17324d; --blue:#276a96; --teal:#138477; --line:#dbe5eb; }
       .stApp { background:#f6f9fb; color:#1e293b; }
-      .block-container { max-width:1480px; padding-top:1.25rem; padding-bottom:3rem; }
-      h1,h2,h3 { color:var(--navy); letter-spacing:-.02em; }
+      header[data-testid="stHeader"] { background:transparent; height:0; }
+      [data-testid="stToolbar"], [data-testid="stDecoration"] { display:none; }
+      .block-container { max-width:1480px; padding-top:1rem; padding-bottom:3rem; }
+      h1,h2,h3,h4 { color:var(--navy)!important; letter-spacing:-.02em; font-weight:750!important; }
+      p, label, [data-testid="stCaptionContainer"] p { color:#526878; }
       [data-testid="stSidebar"] { background:#eef4f7; border-right:1px solid var(--line); }
+      [data-testid="stSidebar"] h1,
+      [data-testid="stSidebar"] h2,
+      [data-testid="stSidebar"] h3,
+      [data-testid="stSidebar"] h4,
+      [data-testid="stSidebar"] p,
+      [data-testid="stSidebar"] label { color:#17324d!important; opacity:1!important; }
+      [data-testid="stSidebar"] [data-baseweb="select"] > div,
+      [data-testid="stSidebar"] [data-testid="stNumberInput"] > div > div { background:#ffffff!important; }
+      [data-testid="stSidebar"] input,
+      [data-testid="stSidebar"] [data-baseweb="select"] span { color:#17324d!important; -webkit-text-fill-color:#17324d!important; }
+      [data-baseweb="select"] > div { background:#ffffff!important; color:#17324d!important; border-color:#b9cbd6!important; }
+      [data-baseweb="select"] span { color:#17324d!important; }
       .hero { background:linear-gradient(115deg,#142f49 0%,#245f89 62%,#168478 100%);
               border-radius:18px; padding:24px 28px; color:white; margin-bottom:14px;
               box-shadow:0 12px 30px rgba(23,50,77,.13); }
@@ -72,6 +87,10 @@ st.markdown(
                  padding:16px 18px; line-height:1.65; }
       .source-note { color:#647886; font-size:.76rem; margin-top:.6rem; }
       div[data-testid="stMetric"] { background:white; border:1px solid var(--line); padding:10px 12px; border-radius:12px; }
+      [data-testid="stMetricLabel"] p { color:#526878!important; font-weight:700!important; }
+      [data-testid="stMetricValue"] { color:#17324d!important; }
+      button[data-baseweb="tab"] { color:#526878!important; font-weight:650!important; }
+      button[data-baseweb="tab"][aria-selected="true"] { color:#17618f!important; }
       .footer-note { text-align:center; color:#728590; font-size:.75rem; margin-top:2rem; }
       #MainMenu, footer { visibility:hidden; }
     </style>
@@ -156,8 +175,7 @@ def status_badge(status: str | None) -> tuple[str, str]:
 
 st.markdown(
     """
-    <section class="hero"><div class="eyebrow">UMBC CMSC 621 · Group 9</div>
-    <h1>ProofPath TrialMatch</h1>
+    <section class="hero"><h1>ProofPath TrialMatch</h1>
     <p>Inspect how retrieval, explicit eligibility rules, and constrained explanations work together.</p></section>
     <div class="notice"><strong>Educational prototype:</strong> Uses synthetic patients and a cached public-trial dataset. Results cover only encoded criteria and are not clinical eligibility determinations or medical advice.</div>
     """,
