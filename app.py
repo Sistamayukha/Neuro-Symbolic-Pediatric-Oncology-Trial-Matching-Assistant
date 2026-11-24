@@ -44,7 +44,7 @@ st.markdown(
       .stApp { background:#f6f9fb; color:#1e293b; }
       header[data-testid="stHeader"] { background:transparent; height:0; }
       [data-testid="stToolbar"], [data-testid="stDecoration"] { display:none; }
-      .block-container { max-width:1480px; padding-top:1rem; padding-bottom:3rem; }
+      .block-container { max-width:1480px; padding-top:1rem; padding-bottom:3rem; position:relative; z-index:2; }
       h1,h2,h3,h4 { color:var(--navy)!important; letter-spacing:-.02em; font-weight:750!important; }
       p, label, [data-testid="stCaptionContainer"] p { color:#526878; }
       [data-testid="stSidebar"] { background:#eef4f7; border-right:1px solid var(--line); }
@@ -56,10 +56,22 @@ st.markdown(
       [data-testid="stSidebar"] label { color:#17324d!important; opacity:1!important; }
       [data-testid="stSidebar"] [data-baseweb="select"] > div,
       [data-testid="stSidebar"] [data-testid="stNumberInput"] > div > div { background:#ffffff!important; }
-      [data-testid="stSidebar"] input,
-      [data-testid="stSidebar"] [data-baseweb="select"] span { color:#17324d!important; -webkit-text-fill-color:#17324d!important; }
-      [data-baseweb="select"] > div { background:#ffffff!important; color:#17324d!important; border-color:#b9cbd6!important; }
-      [data-baseweb="select"] span { color:#17324d!important; }
+      [data-testid="stSidebar"] input { color:#17324d!important; -webkit-text-fill-color:#17324d!important; }
+      div[data-baseweb="select"] > div { background:#2d2b28!important; border-color:#4c5357!important; }
+      div[data-baseweb="select"] input,
+      div[data-baseweb="select"] span,
+      div[data-baseweb="select"] [role="combobox"],
+      div[data-baseweb="select"] [role="combobox"] * {
+        color:#ffffff!important; -webkit-text-fill-color:#ffffff!important; opacity:1!important;
+      }
+      div[data-baseweb="select"] div,
+      div[data-baseweb="select"] p {
+        color:#ffffff!important; -webkit-text-fill-color:#ffffff!important; opacity:1!important;
+      }
+      div[data-baseweb="select"] svg { fill:#ffffff!important; color:#ffffff!important; }
+      [role="listbox"], [role="listbox"] ul { background:#ffffff!important; }
+      [role="option"], [role="option"] * { color:#17324d!important; -webkit-text-fill-color:#17324d!important; }
+      [role="option"]:hover, [role="option"][aria-selected="true"] { background:#e7f1f6!important; }
       .hero { background:linear-gradient(115deg,#142f49 0%,#245f89 62%,#168478 100%);
               border-radius:18px; padding:24px 28px; color:white; margin-bottom:14px;
               box-shadow:0 12px 30px rgba(23,50,77,.13); }
@@ -97,7 +109,6 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-
 
 def safe(value: object) -> str:
     return html.escape(str(value))
